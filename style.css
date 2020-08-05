@@ -62,18 +62,15 @@ header{
 .inner{
     margin: 0 auto;
     width: 1040px;
-    padding: 58px 0;
+    padding-top: 58px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-bottom: 140px;
+    outline: 1px solid red;
 }
-.logo{
-    width: 118px;
-   
-}
+
 .nav{
-    display: flex; 
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -93,16 +90,18 @@ header{
     margin-left: 0;
 }
 
-
 .title{
+    outline: 1px solid red;
+    text-align: center;
     width: 906px;
-    height: 86px;
-    padding-top: 75px;
+    height: 88px;
     margin: 0 auto;
+    text-align: center;
+    margin-bottom: 54px;
+    
     
 }
 .intro__title{
-    margin-bottom: 50px;
     line-height: 48px; 
     font-size: 42px;
     font-weight: 700;
@@ -111,8 +110,10 @@ header{
 } 
 
 .btn{
-    min-width: 293px;
+    outline: 1px solid red;
+    width: 293px;
     height: 70px;
+    margin: 0 auto;
     
 }
 .btn--orang{
