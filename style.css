@@ -48,12 +48,14 @@ header{
     width: 100%;
     height: 596px;
 }
+
 .container{
     width: 100%;
     max-width: 1040px;
     margin: 0 auto;
     
 }
+
 .inner{
     padding: 58px 0;
     display: flex;
@@ -70,14 +72,14 @@ header{
     font-weight: 400;
     text-transform: uppercase;
 }
-.nav__linck{
+.nav__link{
     text-decoration: none;
     color: #ffffff;
     margin-left: 40px; 
     padding: 7px 17px;
 }
 
-.nav__linck:hover{
+.nav__link:hover{
     border-radius: 3px;
     background-color: #643a79;
     
@@ -86,7 +88,7 @@ header{
     margin-left: 0;
 }
 
-.intro{
+/* .intro{
     padding-top: 75px;
     display: flex;
     flex-direction: column;
@@ -101,7 +103,7 @@ header{
     width: 100%;
     margin: 0 auto;
     
-}
+}*/
 .intro__title{
     margin-bottom: 50px;
     line-height: 48px; 
@@ -109,7 +111,7 @@ header{
     font-weight: 700;
     color: #f7f3ea;
     
-}
+} 
 
 .btn{
     min-width: 293px;
