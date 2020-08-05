@@ -57,17 +57,20 @@ header{
 }
 
 .inner{
+    margin: 0 auto;
+    width: 1040px;
     padding: 58px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    outline: 1px solid red;
 }
 .logo{
     width: 118px;
    
 }
 .nav{
-    display: flex; /*?*/
+    display: flex; 
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -75,8 +78,7 @@ header{
 .nav__link{
     text-decoration: none;
     color: #ffffff;
-    margin-left: 40px; 
-    padding: 7px 17px;
+    padding: 7px 22px;
 }
 
 .nav__link:hover{
@@ -87,6 +89,7 @@ header{
 .nav__linc:first-child{ /*обращаемся к первой ссылки и убераем у нее отступ*/
     margin-left: 0;
 }
+
 
 /* .intro{
     padding-top: 75px;
