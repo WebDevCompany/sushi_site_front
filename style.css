@@ -54,7 +54,7 @@ header{
 
 .container{
     width: 100%;
-    max-width: 1040px;
+    /* max-width: 1040px; */
     margin: 0 auto;
     
 }
@@ -90,30 +90,21 @@ header{
     margin-left: 0;
 }
 
-.title{
-    outline: 1px solid red;
-    text-align: center;
-    width: 906px;
-    height: 88px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 54px;
-    
-    
-}
 .intro__title{
     line-height: 48px; 
     font-size: 42px;
     font-weight: 700;
     color: #f7f3ea;
+    text-align: center;
+    /* margin: 0 133px; */
     
 } 
-
 .btn{
     outline: 1px solid red;
     width: 293px;
     height: 70px;
-    margin: 0 auto;
+    margin: 50px 0 0 483px ;
+    
     
 }
 .btn--orang{
