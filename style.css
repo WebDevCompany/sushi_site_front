@@ -170,7 +170,6 @@ header{
 }
 .services__inner{
     display: flex;
-    /* flex-wrap: wrap; */
     margin-top: 92px;
 
 }
@@ -230,7 +229,6 @@ header{
     opacity: 0.74;
     background-color: #bdd1df;
 }
-
 .team__heading{
     font-size: 41.3px;
     font-weight: 900;
@@ -243,8 +241,6 @@ header{
     font-weight: 400;
     color: #3c4761;
 }
-
-
 .team__star{
     margin-top: 70px;
     height: 914px;
@@ -282,7 +278,14 @@ header{
     font-weight:300;
     letter-spacing: 0.02em;
     color: #3c4761;
-
+    margin-bottom: 38px;
+}
+.star__icon{
+    display: flex;
+    justify-content: center;    
+}
+.icon__img{
+    margin-right: 15px;
 }
 
 
