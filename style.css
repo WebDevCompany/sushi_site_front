@@ -171,7 +171,7 @@ header{
 .services__inner{
     display: flex;
     margin-top: 92px;
-
+    
 }
 .inner__item{
     width: 25%;
@@ -243,9 +243,7 @@ header{
 }
 .team__star{
     margin-top: 78px;
-    height: 914px;
     display: flex;
-    
 }
 .star__item{
     width: 25%;
@@ -253,6 +251,7 @@ header{
     flex-direction: column;
     text-align: center;
     margin-left: 80px;
+  
 }
 .star__item:first-child{
     margin-left: 0;
@@ -282,10 +281,78 @@ header{
 }
 .star__icon{
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    justify-items: center;  
 }
 .icon__img{
     margin-right: 15px;
+}
+
+
+/* Skills ===============
+================================ */
+.skills{
+    height: 655px;
+    background-color: #ffffff;
+}
+.skills__title{
+    margin-top: 117px;
+    text-align: center;
+    position: relative;
+    padding: 0 0 23px 0;
+}
+.skills__title h2{
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #3c4761;
+}
+
+.three::after{
+    content:'';
+    position: absolute;
+    left: 50%;
+    width: 87px;
+    height: 4px;
+    background-color: #dfe8ed;
+    bottom: 0;
+    margin: 0 0 0 -40px; 
+}
+.skill__text {
+    margin: 0 auto;
+    width: 628px;
+    margin-top: 17px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+    text-align: center;
+}
+
+.skills__main{
+    margin: 0 auto;
+    display: flex;
+    outline: 1px solid red;
+    width: 1040px;
+    
+}
+
+.skills__item{
+    outline: 1px solid red;
+    width: 25%;
+    justify-content: center;
+}
+
+.item__title{
+    font-size: 24px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #3c4761;
 }
 
 
