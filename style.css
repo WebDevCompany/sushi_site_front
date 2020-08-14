@@ -280,6 +280,8 @@ header{
     letter-spacing: 0.02em;
     color: #3c4761;
     margin-bottom: 29px;
+    line-height: 24px;
+
 }
 .star__icon{
     display: flex;
@@ -337,7 +339,7 @@ header{
     margin: 0 auto;
     display: flex;
     width: 1040px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .skills__item{
@@ -346,7 +348,10 @@ header{
     flex-direction: column;
     display: flex;
     align-items: center;
-    
+    margin-left: 80px;
+}
+.skills__item:first-child{
+    margin-left: 0;
 }
 
 .item__title{
@@ -434,7 +439,7 @@ header{
     width: 50%;
     justify-content: center;
     text-align: center;
-       
+   
 }
 .portfolio__subtitle{
     padding: 32px 0 64px 0;
@@ -461,7 +466,97 @@ header{
     border-radius: 3px;
 }
 
-.POEPLE{
+
+/* comment ==============
+============================== */
+.comment{
     height: 894px;
     background-color: #d74680;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+.comment__title{
+    padding: 119px 0 21px 0;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    position: relative;
+    
+}
+.five::after{
+    content: "";
+    position: absolute;
+    width: 87px;
+    height: 4px;
+    left: 50%;
+    bottom: 0;
+    margin: 0 0 0 -40px; 
+    background-color: #000000;
+    opacity: 0.14;
+
+
+}
+.comment__subtitle{
+    padding-top: 42px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    
+}
+.comment__body{
+    width: 1085px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.comment__item{
+    display: flex;
+    width: 50%;
+    outline: 1px solid red;
+    margin-top: 40px;
+    
+}
+.comment__img{
+    width: 96px;
+    height: 96px;
+    background-color: #787878;
+    border-radius: 50%;
+    
+}
+.content{
+    
+    /* outline: 1px solid red; */
+}
+.content__text{
+    width: 350px;
+    height: 83px;
+    margin-left: 40px;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.content__user{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.position{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffdd99;
 }
