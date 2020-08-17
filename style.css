@@ -102,7 +102,6 @@ header{
 .btn{
     display: flex;
     align-items: center;
-    outline: 1px solid red;
     width: 293px;
     height: 70px;
     margin: 0 auto;
@@ -408,9 +407,9 @@ header{
 }
 .portfolio__nav{
     margin-top: 50px;
-    outline: 1px solid red;
+    
 }
-.portfolio__lik{
+.portfolio__link{
     margin-left: 10px;
     padding: 6px 20px;
     font-size: 18px;
@@ -422,7 +421,7 @@ header{
     background: #e5c37f;
  
 }
-.portfolio__lik:hover{
+.portfolio__link:hover{
     background-color: #ffffff;
   
 }
@@ -475,10 +474,10 @@ header{
     display: flex;
     flex-direction: column;
     align-items:center;
-    text-align: center;
+    /* text-align: center; */
 }
 .comment__title{
-    padding: 119px 0 21px 0;
+    padding: 114px 0 21px 0;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -500,7 +499,7 @@ header{
 
 }
 .comment__subtitle{
-    padding-top: 42px;
+    padding-top: 20px;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
@@ -509,19 +508,19 @@ header{
     
 }
 .comment__body{
-    width: 1085px;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
+    outline: 1px solid red;
 }
-
-
-
 .comment__item{
     display: flex;
     width: 50%;
-    outline: 1px solid red;
-    margin-top: 40px;
-    
+    margin: 64px 0 75px 0;
+    padding-left: 35px;
+}
+.comment__item:first-child{
+    padding-left: 0;
 }
 .comment__img{
     width: 96px;
@@ -532,12 +531,10 @@ header{
 }
 .content{
     
-    /* outline: 1px solid red; */
+    
 }
 .content__text{
-    width: 350px;
-    height: 83px;
-    margin-left: 40px;
+    margin:5px 0 0 48px;
     font-size: 21px;
     line-height: 31px;
     font-weight: 400;
@@ -546,6 +543,7 @@ header{
     color: #ffffff;
 }
 .content__user{
+    margin:22px 0 0 48px;
     font-size: 24px;
     line-height: 26px;
     font-weight: 700;
@@ -554,9 +552,123 @@ header{
     color: #ffffff;
 }
 .position{
+    margin-left:  48px;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #ffdd99;
+}
+
+/* connection==============
+================================= */
+.connection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 819px;
+    background-color: #3c5499;
+}
+.connection__title{
+    padding: 120px 0 28px 0;
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    position: relative;
+}
+.six::after{
+    content: "";
+    position: absolute;
+    width: 87px;
+    height: 4px;
+    left: 50%;
+    bottom: 0;
+    margin: 0 0 0 -40px; 
+    background-color: #273a71;
+   
+}
+.connection__text{
+    margin: 21px 0 76px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    
+}
+.input__name{
+    width: 414px;
+    height: 56px;
+    padding-left: 25px;
+    margin-left: 30px;
+    background-color: #273a71;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 5px;
+    
+}
+.input__name:first-child{
+    margin-left: 0;
+}
+
+
+.message{
+    margin: 27px 0 55px 0;
+    width: 860px;
+    height: 200px;
+    background-color: #273a71;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    
+}
+.btn{
+    width: 293px;
+    height: 70px;
+    
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.btn--blue{
+    background-color: #30bae7;
+}
+
+/* footer==============
+============================ */
+
+.footer{
+    width: 100%;
+    height: 112px;
+    background-color: #344b8e;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.footer__item{
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer__link{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+   
+}
+.footer__list li:first-child{
+    margin-left: 0;
+}
+.footer__link:hover {
+    color: #30bae7;
 }
