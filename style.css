@@ -123,32 +123,29 @@ header{
 =============================== */
 .services{
     padding-top: 113px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     width: 100%;
     height: 747px;
     background-color: #17c2a4;
 
 }
-.services__intro{
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    
-}
+
 .services__title{
-    
     position: relative;
     text-align: center;
+
     padding: 0 0 21px 0;
-}
-.services__heading{
+
     font-size: 40px;
     font-weight: 700;
     color: #ffffff;
 }
-.title::after{
-   content:'';
+.title::after{ 
+    content:'';
     position: absolute;
     left: 50%;
     width: 87px;
@@ -157,48 +154,65 @@ header{
     background-color: #000000;
     bottom: 0;
     margin: 0 0 0 -40px; 
-}
-.services__subtitle{
-    max-width: 603px;
+} 
+ .services__subtitle{
+    padding-top: 19px;
+
+    text-align: center;
+
+    max-width: 590px;
+
+    line-height: 26px;
     font-weight: 400;
-    margin: 0 auto; 
-    padding-top: 23px;
-}
-.subtitle_p{
     font-size: 18px;
     color: #ffffff;
-    font-weight: 400;
+    
 }
 .services__inner{
     display: flex;
-    margin-top: 92px;
     
-}
-.inner__item{
-    width: 25%;
+    margin-top: 80px;
+    max-width: 1031px;
+       
+} 
+.services__item{
+    outline: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
     text-align: center;
+    
+    width: 25%;
     margin-left:80px;
+    
+    color: #ffffff;
 }
-.inner__item:first-child{
+
+.services__item:first-child{
     margin-left: 0;
 }
 .inner__title{
     padding-top:62px;
+
     font-size: 24px;
     line-height: 18px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.02em;
-    color: #ffffff;
+      
 }
 .inner__text{
-    padding-top:27px;
+    padding-top:25px;
+
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
     letter-spacing: 0.02em;
-    color: #ffffff;
+        
 }
+
 
 
 /* team ===============
