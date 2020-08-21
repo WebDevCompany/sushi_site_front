@@ -46,10 +46,15 @@ body{
 /* Header ============
 =====================*/
 header{
+    padding: 57px 0 145px 0;
+        
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
     background:#87509c;
-    width: 100%;
-    height: 596px;
-  
+      
 }
 
 .container{
@@ -60,14 +65,13 @@ header{
 }
 
 .inner{
-    margin: 0 auto;
     width: 1040px;
-    padding-top: 58px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 140px;
-    
+    margin-bottom: 138px;
+   
 }
 
 .nav{
@@ -91,24 +95,23 @@ header{
 }
 
 .intro__title{
+    text-align: center;
+
     line-height: 48px; 
     font-size: 42px;
     font-weight: 700;
     color: #f7f3ea;
-    text-align: center;
+    
     margin-bottom: 51px;
     
 } 
 .btn{
-    display: flex;
-    align-items: center;
     width: 293px;
     height: 70px;
-    margin: 0 auto;
-    justify-content: center;
         
 }
 .btn--orang{
+
     background-color: #eb7d4b;
     font-size: 18px;
     border-radius: 3px;
@@ -122,18 +125,16 @@ header{
 /* services=========
 =============================== */
 .services{
-    padding-top: 113px;
+    padding: 113px 0 128px 0;
 
     display: flex;
     align-items: center;
     flex-direction: column;
 
     width: 100%;
-    height: 747px;
     background-color: #17c2a4;
 
 }
-
 .services__title{
     position: relative;
     text-align: center;
@@ -172,12 +173,10 @@ header{
     display: flex;
     
     margin-top: 80px;
-    max-width: 1031px;
+    max-width: 1070px;
        
 } 
 .services__item{
-    outline: 1px solid red;
-
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -192,6 +191,9 @@ header{
 
 .services__item:first-child{
     margin-left: 0;
+}
+.inner__img{
+    height: 128px;
 }
 .inner__title{
     padding-top:62px;
@@ -218,54 +220,59 @@ header{
 /* team ===============
 ================================ */
 .team{
-    height:914px;
-    background-color: #e7f1f8;
-    
-}
-.team__intro{
     display: flex;
-    text-align: center;
     flex-direction: column;
-    padding-top: 113px;
+    align-items: center;
+    
+    padding: 110px 0 127px 0;
+    background-color: #e7f1f8;
+        
 }
-.team__title {
-   position: relative; 
-   text-align: center;
-   
-   
-}
-.two::after{
-    left: 50%;
-    margin: 0 0 0 -40px;
-    content:'';
-    position: absolute;
-    width: 87px;
-    height: 4px;
-    opacity: 0.74;
-    background-color: #bdd1df;
-}
-.team__heading{
+.team__title{
+    padding-bottom: 20px;
+
     font-size: 41.3px;
     font-weight: 900;
     color: #3c4761;
-    padding: 0 0 20px 0;
+
+    
+    position: relative; 
 }
-.team__p{
+
+.two::after{
+    content:'';
+    position: absolute;
+    left: 50%;
+    width: 87px;
+    height: 4px;
+    opacity: 0.14;
+    background-color: #000000;
+    bottom: 0;
+    margin: 0 0 0 -40px; 
+}
+.team__subtite{
     padding-top: 25px;
+
     font-size: 18.6px;
     font-weight: 400;
     color: #3c4761;
 }
+
+
 .team__star{
     margin-top: 78px;
+
     display: flex;
+    max-width: 1070px;
 }
 .star__item{
+    margin-left: 80px;
     width: 25%;
+
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 80px;
+    
   
 }
 .star__item:first-child{
@@ -274,6 +281,7 @@ header{
 
 .star__title{
     padding-top: 41px;
+
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -281,19 +289,22 @@ header{
 }
 .star__subtitle{
     margin-top: 15px;
+
     font-size: 16px;
     font-weight: 400;
     color: #30bae7;
 }
 .star__text{
-    letter-spacing: 0.02em;
-    margin-top: 20px;
+    margin:20px 0 29px 0;
+
     font-size: 16px;
     font-weight:300;
     letter-spacing: 0.02em;
-    color: #3c4761;
-    margin-bottom: 29px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #3c4761;
+    
+    
 
 }
 .star__icon{
@@ -309,22 +320,29 @@ header{
 /* Skills ===============
 ================================ */
 .skills{
-    height: 655px;
+    padding: 117px 0 122px 0;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     background-color: #ffffff;
 }
 .skills__title{
-    margin-top: 117px;
+    padding: 0 0 26px 0;
+
     text-align: center;
     position: relative;
-    padding: 0 0 23px 0;
-}
-.skills__title h2{
+    
     font-size: 40px;
     line-height: 29px;
     font-weight: 900;
     letter-spacing: 0.1em;
     color: #3c4761;
+
 }
+
 
 .three::after{
     content:'';
@@ -337,27 +355,30 @@ header{
     margin: 0 0 0 -40px; 
 }
 .skill__text {
-    margin: 0 auto;
-    width: 628px;
     margin-top: 17px;
+    width: 628px;
+
+    text-align: center;
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #3c4761;
-    text-align: center;
+    
 }
 
 .skills__main{
     margin: 0 auto;
     display: flex;
-    width: 1040px;
+    width: 1070px;
     /* flex-wrap: wrap; */
 }
 
 .skills__item{
     margin-top: 84px;
+
     width: 25%;
+
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -368,8 +389,10 @@ header{
 }
 
 .item__title{
-    font-size: 24px;
     text-align: center;
+
+    font-size: 24px;
+    
     line-height: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -381,14 +404,16 @@ header{
 =============================*/
 
 .portfolio{
+    padding: 120px 0 109px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1423px;
+
+    
     background-color: #ffdd99;
 }
 .portfolio__title{
-    padding: 120px 0 25px 0;
+    padding-bottom: 25px;
     font-size: 40px;
     line-height: 29px;
     font-weight: 700;
@@ -409,6 +434,7 @@ header{
 }
 
 .portfolio__text{
+
     padding-top: 23px;
     width: 565px;
     font-size: 18px;
@@ -426,6 +452,7 @@ header{
 .portfolio__link{
     margin-left: 10px;
     padding: 6px 20px;
+
     font-size: 18px;
     line-height: 19px;
     font-weight: 400;
@@ -442,7 +469,8 @@ header{
 
 
 .portfolio__main{
-    width: 1101px;
+    max-width: 1160px;
+
     display: flex;
     margin-top: 70px;
     flex-wrap: wrap;
@@ -450,10 +478,12 @@ header{
 }
 .portfolio__item{
     width: 50%;
-    justify-content: center;
-    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center; 
    
 }
+
 .portfolio__subtitle{
     padding: 32px 0 64px 0;
     font-size: 18px;
@@ -465,6 +495,7 @@ header{
 }
 .portfolio__btn{
     margin-top: 18px;
+
     width: 293px;
     height: 70px;
     font-size: 18px;
@@ -483,15 +514,17 @@ header{
 /* comment ==============
 ============================== */
 .comment{
-    height: 894px;
-    background-color: #d74680;
+    padding: 114px 0 132px 0;
+
     display: flex;
     flex-direction: column;
     align-items:center;
-    /* text-align: center; */
+    
+    background-color: #d74680;
 }
 .comment__title{
-    padding: 114px 0 21px 0;
+    padding-bottom: 21px;
+
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -514,6 +547,7 @@ header{
 }
 .comment__subtitle{
     padding-top: 20px;
+
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
@@ -522,30 +556,37 @@ header{
     
 }
 .comment__body{
-    width: 1100px;
+    width: 1082px;
+
     display: flex;
     flex-wrap: wrap;
     outline: 1px solid red;
+    justify-content: space-between;
+    
 }
 .comment__item{
+    margin: 64px 0 75px 0px;
+
+    width: 500px;
+
     display: flex;
-    width: 50%;
-    margin: 64px 0 75px 0;
+
+    
+    outline: 1px solid red;
 }
 
 .comment__img{
     width: 96px;
     height: 96px;
+
     background-color: #787878;
     border-radius: 50%;
     
 }
-.content{
-    
-    
-}
+
 .content__text{
     margin:5px 0 0 48px;
+    
     font-size: 21px;
     line-height: 31px;
     font-weight: 400;
@@ -577,7 +618,6 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 1440px;
     height: 819px;
     background-color: #3c5499;
 }
