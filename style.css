@@ -64,7 +64,7 @@ header{
     
 }
 
-.inner{
+.header__inner{
     width: 1040px;
     
     display: flex;
@@ -74,27 +74,27 @@ header{
    
 }
 
-.nav{
+.header__nav{
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
 }
-.nav__link{
+.header__nav__link{
     text-decoration: none;
     color: #ffffff;
     padding: 7px 22px;
 }
 
-.nav__link:hover{
+.header__nav__link:hover{
     border-radius: 3px;
     background-color: #643a79;
     
 }
-.nav__linc:first-child{ /*обращаемся к первой ссылки и убераем у нее отступ*/
+.header__nav__linc:first-child{ /*обращаемся к первой ссылки и убераем у нее отступ*/
     margin-left: 0;
 }
 
-.intro__title{
+.header__title{
     text-align: center;
 
     line-height: 48px; 
@@ -105,7 +105,7 @@ header{
     margin-bottom: 51px;
     
 } 
-.btn{
+.header__button{
     width: 293px;
     height: 70px;
         
@@ -169,14 +169,14 @@ header{
     color: #ffffff;
     
 }
-.services__inner{
+.services__body{
     display: flex;
     
     margin-top: 80px;
     max-width: 1070px;
        
 } 
-.services__item{
+.services__body__item{
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -189,13 +189,13 @@ header{
     color: #ffffff;
 }
 
-.services__item:first-child{
+.services__body__item:first-child{
     margin-left: 0;
 }
-.inner__img{
+.services__body__img{
     height: 128px;
 }
-.inner__title{
+.services__body__title{
     padding-top:62px;
 
     font-size: 24px;
@@ -205,7 +205,7 @@ header{
     letter-spacing: 0.02em;
       
 }
-.inner__text{
+.services__body__text{
     padding-top:25px;
 
     font-size: 16px;
@@ -615,14 +615,14 @@ header{
 /* connection==============
 ================================= */
 .connection{
+    padding: 120px 0 115px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 819px;
     background-color: #3c5499;
 }
 .connection__title{
-    padding: 120px 0 28px 0;
+    padding-bottom: 28px ;
     font-size: 40px;
     line-height: 29px;
     font-weight: 700;
@@ -650,11 +650,14 @@ header{
     color: #ffffff;
     
 }
+
 .input__name{
     width: 414px;
     height: 56px;
+
     padding-left: 25px;
     margin-left: 30px;
+       
     background-color: #273a71;
     font-size: 18px;
     line-height: 18px;
@@ -671,8 +674,11 @@ header{
 .message{
     margin: 27px 0 55px 0;
     padding: 21px 0 0 25px;
+
     width: 860px;
     height: 200px;
+    resize: none;
+
     background-color: #273a71;
     font-size: 18px;
     line-height: 18px;
