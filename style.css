@@ -259,13 +259,13 @@ header{
 }
 
 
-.team__star{
+.team__body{
     margin-top: 78px;
 
     display: flex;
     max-width: 1070px;
 }
-.star__item{
+.team__body__item{
     margin-left: 80px;
     width: 25%;
 
@@ -275,11 +275,11 @@ header{
     
   
 }
-.star__item:first-child{
+.team__body__item:first-child{
     margin-left: 0;
 }
 
-.star__title{
+.team__body__title{
     padding-top: 41px;
 
     font-size: 24px;
@@ -287,14 +287,14 @@ header{
     text-transform: uppercase;
     color: #27283d;
 }
-.star__subtitle{
+.team__body__subtitle{
     margin-top: 15px;
 
     font-size: 16px;
     font-weight: 400;
     color: #30bae7;
 }
-.star__text{
+.team__body__text{
     margin:20px 0 29px 0;
 
     font-size: 16px;
@@ -307,12 +307,12 @@ header{
     
 
 }
-.star__icon{
+.team__body__icon{
     display: flex;
     justify-content: center; 
     justify-items: center;  
 }
-.icon__img{
+.team__body__icon__img{
     margin-right: 15px;
 }
 
@@ -367,14 +367,14 @@ header{
     
 }
 
-.skills__main{
+.skills__body{
     margin: 0 auto;
     display: flex;
     width: 1070px;
     /* flex-wrap: wrap; */
 }
 
-.skills__item{
+.skills__body__item{
     margin-top: 84px;
 
     width: 25%;
@@ -384,11 +384,11 @@ header{
     align-items: center;
     margin-left: 80px;
 }
-.skills__item:first-child{
+.skills__body__item:first-child{
     margin-left: 0;
 }
 
-.item__title{
+.skills__body__title{
     text-align: center;
 
     font-size: 24px;
@@ -449,7 +449,7 @@ header{
     margin-top: 50px;
     
 }
-.portfolio__link{
+.portfolio__nav__link{
     margin-left: 10px;
     padding: 6px 20px;
 
@@ -462,13 +462,13 @@ header{
     background: #e5c37f;
  
 }
-.portfolio__link:hover{
+.portfolio__nav__link:hover{
     background-color: #ffffff;
   
 }
 
 
-.portfolio__main{
+.portfolio__body{
     max-width: 1160px;
 
     display: flex;
@@ -476,7 +476,7 @@ header{
     flex-wrap: wrap;
 
 }
-.portfolio__item{
+.portfolio__body__item{
     width: 50%;
     /* align-items: center; */
     /* justify-content: center; */
@@ -484,7 +484,7 @@ header{
    
 }
 
-.portfolio__subtitle{
+.portfolio__body__subtitle{
     padding: 32px 0 64px 0;
     font-size: 18px;
     line-height: 19px;
@@ -493,7 +493,7 @@ header{
     letter-spacing: 0.02em;
     color: #393939;
 }
-.portfolio__btn{
+.portfolio__button{
     margin-top: 18px;
 
     width: 293px;
@@ -555,27 +555,26 @@ header{
     color: #ffffff;
     
 }
+
 .comment__body{
     width: 1082px;
 
     display: flex;
     flex-wrap: wrap;
-    outline: 1px solid red;
     justify-content: space-between;
     
 }
-.comment__item{
+
+.comment__body__item{
     margin: 64px 0 75px 0px;
 
-    width: 500px;
+    width: 520px;
 
     display: flex;
-
-    
-    outline: 1px solid red;
+       
 }
 
-.comment__img{
+.comment__body__img{
     width: 96px;
     height: 96px;
 
@@ -584,8 +583,11 @@ header{
     
 }
 
-.content__text{
-    margin:5px 0 0 48px;
+.comment__aside{
+    margin-left: 40px;
+}
+.comment__aside__text{
+    margin-top:5px;
     
     font-size: 21px;
     line-height: 31px;
@@ -594,8 +596,8 @@ header{
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.content__user{
-    margin:22px 0 0 48px;
+.comment__aside__user{
+    margin-top:22px;
     font-size: 24px;
     line-height: 26px;
     font-weight: 700;
@@ -603,8 +605,7 @@ header{
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.position{
-    margin-left:  48px;
+.comment__aside__position{
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
@@ -732,11 +733,3 @@ header{
 }
 
 
-/* @media =====
-======================*/
-
-/* @media(max-width:1320px){
-    .nav{
-        display: none;
-    }
-} */
