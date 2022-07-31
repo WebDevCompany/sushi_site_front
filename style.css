@@ -42,7 +42,7 @@ body{
 }
  * {
      box-sizing: border-box;
-     font-family: D;
+     
  }
 
  
@@ -54,18 +54,37 @@ body{
     margin: 0 auto;
     display: flex;
 }
+/* left-bar ===================================================*/
 .left-bar{
+
+
     width: 320px;
     background-color: aqua;
     height: 100%;
-    border: 1px solid aqua;
+    
 }
-.right-bar{
-    width: 430px;
-    height: 100%;
-    background-color: burlywood;
-    border: 1px solid burlywood;
+.left-bar__logo{
+    width: 130px;
+    height: 141.67px;
+    margin-left: 125px;
+    border: 1px solid red;
+    background: url(./img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
 }
+.left-bar__subtitle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 125px;
+}
+
+
+/* main ======================================================*/
 .main{
     width: 1170px;
     height: 2295px;
@@ -118,9 +137,9 @@ body{
 }
 .header__wrap-city{
     padding-top: 26px;
+    padding-left: 26px;
      
 }
-
 .header__wrap-city {
     font-style: normal;
     font-weight: 300;
@@ -163,7 +182,6 @@ body{
 
     cursor: pointer;
 }
-
 .fas.fa-search{
     margin-right: 40px;
     color: #ccc;
@@ -173,16 +191,205 @@ body{
 .fas.fa-search:hover{
     color:red;
   }
-
-.header__comment:hover{
+.orang:hover{
     color: #FF9846;
 }
-.header__render:hover{
-    color: #FF9846;
+.main-content{
+    width: 950px;
+    height: 470px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+   
+}
+.main-banner{
+    margin:30px 0 11px 0;
+}
+.slider-dots{
+    display: flex;
+    
+    
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 12px;
+    background: #A4ACAD;
+    cursor: pointer;
+}
+.dot:hover{
+    background: #FF9846;
+}
+/* section =============================*/
+section{ /*Оптимизировать*/
+    display: flex;
+    flex-wrap: wrap;
+        
+    width: 950px;
+    height: 470px;
+
+    margin: 31px 0 24px 0;
+
+}
+article{
+    position: relative;
+    cursor: pointer;
+    
+}
+article:first-child{
+    margin-left: 0;
+    margin-bottom:30px ;
+    
+}
+article:nth-child(2){
+    margin-left: 30px;
+
+}
+article:nth-child(3){
+    margin-left: 20px;
+
+}
+article:nth-child(5){
+    margin-left: 30px;
+
+}
+.text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    position: absolute;
+    left: 10px;
+    top: 160px;
+}
+.offer{
+    /* margin-bottom: 30px; */
+    width: 100%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+.offer span{
+    cursor: pointer;
+}
+.pop{
+    margin-left: 30px;
+    text-decoration-line: underline;
+    color: #A4ACAD;
 }
 
 
+/* right-bar========================================== */
 
 
+.right-bar{
+    width: 430px;
+    height: 100%;
+    
+    
+}
+.right-bar__basket{
+    width: 290px;
+    height: 140px;
 
+    background: #F2F2F2;
+    color: #A4ACAD;
+    border-radius: 5px; 
 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.right-bar__basket h2{ 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+    color: #000000;
+}
+.right-bar__btn{
+    width: 290px;
+    height: 40px;
+
+    margin-top: 26px;
+
+    background: #FF9846;
+    border-radius: 0px 0px 5px 5px; 
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #F2F2F2;
+}
+.right-bar__map{
+    width: 290px;
+    height: 223px;
+
+    background: #F2F2F2;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-left: 40px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.map-ellipse{ /* поправить убрать чать кода , оптимизировать  */
+    position: absolute;
+    margin-top: 86px;
+
+    cursor: pointer;
+}
+.map-ellipse-vector{ /* поправить убрать чать кода , оптимизировать  */
+    position: absolute;
+    margin-top: 97px;
+    cursor: pointer;
+}
+.map-ellipse-one{ /* поправить убрать чать кода , оптимизировать  */
+    position: absolute;
+    margin-top: 102px;
+    cursor: pointer;
+}
+.map-subtext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+
+    margin-top: 38px;
+    
+}
+.map-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #A4ACAD;
+    margin-top: 10px;
+
+}
