@@ -303,7 +303,7 @@ ul li ul li {
 }
 
 /* section =============================*/
-section{ /*Оптимизировать Изменить классы*/
+section{ /*Оптимизировать*/
     display: flex;
     flex-wrap: wrap;
         
@@ -424,6 +424,10 @@ article:nth-child(5){
     border-radius: 5px;
     margin-top: 11px; /* Проверить отступы по ленейке*/
 }
+
+
+
+
 /* btn__slider======================================= */
 .btn__slider{
     /* display: flex;
@@ -433,7 +437,7 @@ article:nth-child(5){
 }
 
 .btn__slider-right{
-    left: 1099px;
+    left: 1103px;
     position: absolute;
     
   
@@ -444,7 +448,7 @@ article:nth-child(5){
 .content__presentation{
     margin-top: 50px; /* Проверить отступы*/
     color: #A4ACAD;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 100%;
    
     font-style: normal;
@@ -463,22 +467,44 @@ article:nth-child(5){
 }
 .presentation__text{
     padding-top: 10px;
-   
-    
+    opacity: 0.8;    
 
 }
 .presentation__text-indent{
-   
+    opacity: 0.8; 
     padding-left: 25px;
  
 }
 .presentation__text-bac{
-    /* opacity: 0.2; */
-    border: 1px solid red;
-    background: linear-gradient(180deg, rgba(242, 242, 242, 0) 0%, #F2F2F2 100%);
+    /* opacity: 0.5;  */
+  
+    
+}
+.presentation__text-bac p:nth-child(1){
+    opacity: 0.5;
+    
+}
+.presentation__text-bac p:nth-child(2){
+    opacity: 0.3;
+}
+.presentation__text-bac p:nth-child(3){
+    opacity: 0.2;
 }
 
+.presentation__info{
+    /* margin-top: ; */
+}
+.presentation__btn-vector{
+    margin-left: 10px;
+}
+.presentation__btn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #F46D40;
 
+}
 /* right-bar========================================== */
 
 .right-bar{
