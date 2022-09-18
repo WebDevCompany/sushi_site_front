@@ -1,0 +1,948 @@
+@import url("fonts/dinpro/stylesheet.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    position: absolute;
+    width: 1470px;
+    height: 82px;
+    left: 0px;
+    top: 3px;
+}
+
+.header_backToMainPage {
+    position: absolute;
+    width: 189px;
+    height: 22px;
+    left: 100px;
+    top: 38px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    ;
+
+}
+
+.header_text {
+    position: absolute;
+    width: 111px;
+    height: 22px;
+    left: 689px;
+    top: 3px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+    color: #111111;
+
+}
+
+.header_orangeCircle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 70px;
+    top: 39px;
+
+
+
+}
+
+.test {
+    left: 25px;
+}
+
+.header_telephone {
+    position: absolute;
+    width: 138px;
+    height: 36px;
+    left: 676px;
+    top: 25px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+    color: #FF9846;
+}
+
+.header_time {
+    position: absolute;
+    width: 165px;
+    height: 17px;
+    left: 672px;
+    top: 61px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+    color: #A4ACAD;
+}
+
+.header_clock {
+    position: absolute;
+    width: auto;
+    height: 17px;
+    left: 650px;
+    top: 63px;
+
+
+
+
+}
+
+.header_line{
+    position: absolute;
+    width: 1470px;
+    height: 0px;
+    left: 0px;
+    top: 85px;
+    
+    
+    border: 0.5px solid #A4ACAD;  
+}
+
+.main {
+    position: absolute;
+    width: 760px;
+    height: 568px;
+    left: 338px;
+    top: 140px;
+   
+}
+
+
+.body_header {
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+
+
+.tel {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 0px;
+    top: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+
+    color: #A4ACAD;
+
+
+}
+
+.name {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 190px;
+    top: 60px;
+
+
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    /* 4 */
+
+    color: #A4ACAD;
+
+}
+
+.cash {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 0px;
+    top: 120px;
+
+    background: #FF9846;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.cash_txt {
+    position: absolute;
+    width: 97px;
+    height: 22px;
+    left: 35px;
+    top: 129px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+    color: #FFFFFF;
+
+}
+
+.cash_pic {
+    position: absolute;
+    left: 10px;
+    top: 129px;
+
+}
+
+.card {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 180px;
+    top: 120px;
+
+
+    background: #FFFFFF;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.card_txt {
+    position: absolute;
+    width: 58px;
+    height: 22px;
+    left: 225px;
+    top: 127px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    
+
+    color: #111111;
+
+}
+
+.card_pic {
+    position: absolute;
+    width: auto;
+    height: 32px;
+    left: 190px;
+    top: 123px;
+}
+
+.text_cash {
+    position: absolute;
+    width: 166px;
+    height: 22px;
+    left: 37px;
+    top: 189px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+    color: #111111;
+
+}
+
+.sumOfMoney {
+    position: absolute;
+    width: 152px;
+    height: 40px;
+    left: 208px;
+    top: 180px;
+
+
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+
+    color: #A4ACAD;
+
+}
+
+.tick_pic{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 7px;
+top: 190px;
+
+/* background: #FF9846; */
+/* transform: rotate(-90deg); */
+
+
+}
+
+.comments {
+    position: absolute;
+    width: 360px;
+    height: 40px;
+    left: 0px;
+    top: 240px;
+
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+    color: #A4ACAD;
+}
+
+.souceAndSticks {
+    position: absolute;
+    width: 235px;
+    height: 22px;
+    left: 0px;
+    top: 315px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    /* 3 */
+
+    color: #111111;
+
+}
+
+.minus_pic {
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    left: 270px;
+    top: 320px;
+
+
+    border: 2px solid #111111;
+    transform: rotate(-90deg);
+}
+
+.numberOfSticks {
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    left: 290px;
+    top: 313px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.plus_pic {
+    position: absolute;
+    width: auto;
+    height: 27px;
+    left: 308px;
+    top: 311px;
+
+}
+
+
+.promocode {
+    position: absolute;
+    width: 360px;
+    height: 40px;
+    left: 0px;
+    top: 393px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+    color: #A4ACAD;
+}
+
+.order {
+    position: absolute;
+    width: 760px;
+    height: 45px;
+    top: 473px;
+    left: 0px;
+    /* 5 */
+    background: #F46D40;
+    border-radius: 5px;
+}
+
+.button_text {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.common_style_for_upper_fields {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+    color: #A4ACAD;
+}
+
+.common_style_for_lower_fields {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+
+    color: #A4ACAD;
+}
+
+.courier {
+    top: 60px;
+    left: 399px
+}
+
+.self_delivery {
+    top: 60px;
+    left: 578px
+}
+
+.street {
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    top: 120px;
+    left: 399px;
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    color: #A4ACAD;
+
+}
+
+.not_now {
+    top: 240px;
+    left: 399px
+}
+
+.for_time {
+    top: 240px;
+    left: 578px
+}
+
+.email {
+    position: absolute;
+    top: 300px;
+    left: 399px;
+    width: 360px;
+    height: 40px;
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    color: #A4ACAD;
+}
+
+.house {
+    top: 120px;
+    left: 678px
+}
+
+.flat {
+    top: 180px;
+    left: 400px
+}
+
+.entrance {
+    top: 180px;
+    left: 493px
+}
+
+.floor {
+    top: 180px;
+    left: 586px;
+}
+
+.code {
+    top: 180px;
+    left: 678px
+}
+
+.text_offer {
+    position: absolute;
+    width: 760px;
+    height: 38px;
+    left: 32px;
+    top: 530px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.right_bar {
+    position: absolute;
+    left: 1556px;
+    top: 0px;
+    width: 500px;
+    height: 760px;
+    background-color: white;
+    display: flex;
+}
+
+h2 {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    left: 74px;
+    top: 59px;
+
+    background: #F2F2F2;
+    border-radius: 5px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+
+
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.philo {
+    position: absolute;
+    width: 171px;
+    height: 22px;
+    left: 143px;
+    top: 121px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.sushi_philo_pic {
+    position: absolute;
+    width: 70px;
+    height: 47px;
+    left: 68px;
+    top: 119px;
+
+}
+
+.minus_right_bar_pic {
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    left: 148px;
+    top: 158px;
+
+
+
+    border: 2px solid #111111;
+    transform: rotate(-90deg);
+}
+
+.numberOfSticks_right_bar {
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    left: 164px;
+    top: 152px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.plus_right_bar_pic {
+    position: absolute;
+    width: auto;
+    height: 27px;
+    ;
+    left: 180px;
+    top: 150px;
+
+
+}
+
+.sum_right_bar {
+    position: absolute;
+    width: 71px;
+    height: 23px;
+    right: 178px;
+    top: 152px;
+
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #000000;
+
+}
+
+p1{
+position: absolute;
+width: 61px;
+height: 22px;
+left: 66px;
+top: 552px;
+
+font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+p2{
+position: absolute;
+width: 71px;
+height: 22px;
+left: 270px;
+top: 552px;
+
+font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+
+}
+
+.first_line_right_bar{
+position: absolute;
+width: 330px;
+height: 0px;
+left: 0px;
+top: 584px;
+
+border: 0.5px solid #A4ACAD;
+}
+
+p3{
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 67px;
+    top: 594px;
+    
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+}
+
+p4{
+    position: absolute;
+    width: 52px;
+    height: 22px;
+    left: 279px;
+    top: 594px;
+    
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #000000;
+    
+}
+.second_line_right_bar{
+    position: absolute;
+    width: 330px;
+    height: 0px;
+    left: 0px;
+    top: 626px;
+    
+    border: 0.5px solid #A4ACAD;  
+}
+
+p5{
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    left: 58px;
+    top: 636px;
+    
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    
+}
+
+p6{
+    position: absolute;
+    width: 88px;
+    height: 22px;
+    left: 261px;
+    top: 636px;
+    
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #000000;
+    
+}
+
+.third_line_right_bar{
+    position: absolute;
+    width: 330px;
+    height: 0px;
+    left: 0px;
+    top: 668px;
+    
+    border: 0.5px solid #A4ACAD;   
+}
+
+p7{
+    position: absolute;
+    width: 48px;
+    height: 22px;
+    left: 73px;
+    top: 678px;
+    
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    
+    
+    color: #FF9846;
+    
+}
+p8{
+    position: absolute;
+    width: 71px;
+    height: 22px;
+    left: 270px;
+    top: 678px;
+    
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+  
+    
+    color: #FF9846;
+    
+}
